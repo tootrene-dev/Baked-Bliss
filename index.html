@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMDJd47f0S5glH/iM+gL3QvR46J2t4x7U8zR0+H/K1P8P+K70x5I/2eG4S/gGkU5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+  <section>
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+   <a class="navbar-brand" href="#">
+    <img src="IMAGES FOLDER/chocolate-cake-free-illustration-free-png.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Baked Bliss
+</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door"></i> Home</a>
+</li>
+  <li class="nav-item">
+  <a class="nav-link active" href="contact.html"><i class="bi bi-telephone"></i></i> Contact Us</a>
+</li>
+</li>
+  <li class="nav-item">
+  <a class="nav-link active" href="about.html"><i class="bi bi-file-earmark-person"></i> About Us</a>
+</li>
+  <li class="nav-item dropdown">
+  <a class="nav-link active dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-handbag"></i> Products
+</a>
+  <ul class="dropdown-menu">
+  <li><a class="dropdown-item" href="category1.html">cupcakes</a></li>
+  <li><a class="dropdown-item" href="category2.html">pastries</a></li>
+  <li><a class="dropdown-item" href="category3.html">swiss rolls</a></li>
+</ul>
+</li>
+  <li class="nav-item">
+  <a class="nav-link active" href="cart.html"><i class="bi bi-cart-plus"></i> Cart</a>
+</li>
+  <li class="nav-item">
+  <a class="nav-link active" href="login.html"><i class="bi bi-box-arrow-right"></i> Login</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link active" href="register.html"><i class="bi bi-r-circle"></i> Register</a>
+  </li>
+</ul>
+  <form class="d-flex" role="search">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+  <button class="btn btn-outline-success" type="submit">Search</button>
+</ul>
+  <form class="d-flex" role="search">
+</div>
+</div>
+</nav>
+</section>
+
+<!-- Welcome Section -->
+<section class="welcome bg-light py-5">
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col-12">
+        <h1 class="display-4 fw-bold text-primary">Welcome to Baked Bliss</h1>
+        <p class="lead">Indulge in the finest artisanal cakes and pastries crafted with love and passion. From decadent cupcakes to exquisite swiss rolls, every bite is a celebration of flavor and joy.</p>
+        <p class="mb-4">Discover our handcrafted delights that turn ordinary moments into extraordinary memories. Whether it's a birthday, anniversary, or just a sweet craving, we've got the perfect treat for you.</p>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <i class="bi bi-star-fill fs-1 mb-3 text-warning"></i>
+            <h5>Premium Quality</h5>
+            <p>Only the finest ingredients and traditional baking techniques.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-heart-fill fs-1 mb-3 text-danger"></i>
+            <h5>Made with Love</h5>
+            <p>Each creation is baked fresh with passion and attention to detail.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="bi bi-truck fs-1 mb-3 text-success"></i>
+            <h5>Fast Delivery</h5>
+            <p>Quick and reliable delivery to bring sweetness to your doorstep.</p>
+          </div>
+        </div>
+        <a href="products.html" class="btn btn-primary btn-lg mt-4">Explore Our Menu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- For Carousel -->
+<section class="d-flex justify-content-center my-5 pt-5">
+<div id="carouselExampleCaptions" class="carousel slide w-75">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="IMAGES FOLDER/cupcake.jfif" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white bg-dark">Cupcake</h5>
+        <p class="text-black bg-white">Keep calm and eat cupcake</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES FOLDER/pastry.jpg" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white bg-dark">Sweet Pastry</h5>
+        <p class="text-black bg-white">Life's short-eat the pastry</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES FOLDER/Simulation-Cake-Fake-Fruit-Bread-Model-Swiss-Roll-Shop-Window-Home-Refrigerator-Dec-Food-Photography-Props.webp" class="d-block w-100" alt="..." style="height: 500px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="text-white bg-dark">Swiss Roll</h5>
+        <p class="text-black bg-white">Happiness comes in roll</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark p-3 rounded-circle" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ </section>
+
+<!-- For card section -->
+<section class="my-5">
+<h1 class="top text-center mt-4">Most Delicious Menu</h1>
+<div class="row row-cols-1 row-cols-md-3 w-75 mx-auto">
+  <div class="col">
+    <div class="card h-100 d-flex flex-column">
+      <img src="IMAGES FOLDER/chocolat cup cake.jfif" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Chocolate Cupcake</h5>
+        <p class="card-text flex-grow-1">
+        Life is better with a slice of cupcake</p>
+        <p>Php 50.00</p>
+        <a href="cart.html" class="btn btn-warning btn-lg">Add to Cart</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  d-flex flex-column">
+      <img src="IMAGES FOLDER/Puff-Pastry-Breakfast-Cups.jpg" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+      <div class="card-body  d-flex flex-column">
+        <h5 class="card-title">Pastry</h5>
+        <p class="card-text flex-grow-1">
+        Happiness is fresh pastry in the morning</p>
+        <p>Php 90.00</p>
+         <a href="cart.html" class="btn btn-warning btn-lg">Add to Cart</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 5 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  d-flex flex-column">
+      <img src="IMAGES FOLDER/matcha swiss roll OIP (7).webp" class="card-img-top" alt="..." style="height: 300px; object-fit: cover;">
+      <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Matcha Swiss Roll</h5>
+        <p class="card-text flex-grow-1">
+        Roll with sweetness- life's a matcha swiss roll</p>
+        <p>Php 160.00</p>
+        <a href="cart.html" class="btn btn-warning btn-lg">Add to Cart</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 7 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Customers Feedback</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="IMAGES FOLDER/0bda779a-3340-42e2-b4ac-cc53dd99bfae.jfif" class="rounded-circle mb-3" alt="Customer 1" style="width: 80px; height: 80px; object-fit: cover;">
+            <p class="card-text">"The chocolate cupcakes are absolutely divine! Fresh, moist, and bursting with flavor. Baked Bliss never disappoints!"</p>
+            <h6 class="card-title">- Maria Santos</h6>
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="IMAGES FOLDER/4278398b-bc0c-4abb-8dc7-f047e0dedff9.jfif" class="rounded-circle mb-3" alt="Customer 2" style="width: 80px; height: 80px; object-fit: cover;">
+            <p class="card-text">"Their wedding cake was a masterpiece! Beautiful design and tasted incredible. Highly recommend for special occasions."</p>
+            <h6 class="card-title">- Juan dela Cruz</h6>
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="IMAGES FOLDER/24bafcbd-9ffc-4fe1-b5ae-5e68e0052399.jpg" class="rounded-circle mb-3" alt="Customer 3" style="width: 80px; height: 80px; object-fit: cover;">
+            <p class="card-text">"The swiss rolls are heavenly! Perfect texture and the matcha flavor is authentic. My new favorite dessert spot."</p>
+            <h6 class="card-title">- Ana Reyes</h6>
+            <div class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- For Footer -->
+<div class="container my-5">
+  <footer class="text-white text-center text-lg-start bg-dark">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">About company</h5>
+          <p>
+          Sweet Haven Cakes and Pastries is a bakery that creates delicious, high-quality cakes and pastries for every occasion.
+          </p>
+
+          <p>
+           Using the finest ingredients and creative designs, the company brings sweetness and joy to customers with every bite.
+          </p>
+
+          <div class="mt-4">
+            <!-- Facebook -->   
+                    <!-- Facebook: Icon class (fab fa-facebook-f) is inside an anchor tag (<a>) with a link (href) -->
+                    <a
+                        class="btn btn-outline-light btn-floating m-1 text-white hover:bg-white hover:text-dark transition duration-300"
+                        href="https://www.facebook.com/yourpage"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-facebook-f"></i
+                    ></a>
+            <!-- Twitter -->
+              <a
+                        class="btn btn-outline-light btn-floating m-1 text-white hover:bg-white hover:text-dark transition duration-300"
+                        href="https://www.twitter.com/yourpage"
+                        target="_blank"
+                        role="button"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+            <!-- Google + -->
+             <a
+             class="btn btn-outline-light btn-floating m-1 text-white hover:bg-white hover:text-dark transition duration-300"
+             href="https://www.google.com/"
+             target="_blank"
+             role="button"
+             ><i class="fab fa-google"></i
+          ></a>
+            <!-- Instagram -->
+             <a
+              class="btn btn-outline-light btn-floating m-1 text-white hover:bg-white hover:text-dark transition duration-300"
+              href="https://www.instagram.com/"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-instagram"></i
+          ></a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="text" id="formControlLg" class="form-control form-control-lg" />
+            <label class="form-label" for="formControlLg">Search</label>
+          </div>
+
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Samoki,Bontoc</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">tootrene@gmail.com</span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2"> +63 9202 050 501</span>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+          <table class="table text-center text-white">
+            <tbody class="fw-normal">
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8:00am - 9:00pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8:00am - 1:00pm</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9:00am - 1:00pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">BakedBliss.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
